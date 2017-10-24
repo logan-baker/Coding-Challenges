@@ -1,5 +1,5 @@
 - Ruby 2.4.0
-
+- Started to try and implement RSpec for testing framework but still unfamiliar fully
 
 
 
@@ -18,6 +18,7 @@ A record consists of the following 5 fields: last name, first name, gender, date
     LastName | FirstName | MiddleInitial | Gender | FavoriteColor | DateOfBirth
   - The comma-delimited file looks like this:
     LastName, FirstName, Gender, FavoriteColor, DateOfBirth
+    lname,fname, gender, favC, dob
   - The space-delimited file looks like this:
     LastName FirstName MiddleInitial Gender DateOfBirth FavoriteColor
 
