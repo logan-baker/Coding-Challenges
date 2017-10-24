@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+
 # File.dirname to return an absolute path or relative if given
 # Convert pathname to an absolute, expand_path(p1, p2 = v2)
 # __FILE__ for reference to current file name

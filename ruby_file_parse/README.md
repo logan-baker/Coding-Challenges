@@ -1,10 +1,11 @@
 - Ruby 2.4.0
-- Started to try and implement RSpec for testing framework but still unfamiliar fully
+- Started to try and implement RSpec for testing framework but still unfamiliar
+- Main script is the parse.rb file
+  Intention was to use the methods built within the Lineup Module prior to everything
+- Other than the attempted RSpec, only standard Ruby library was used, as requested
 
 
-
-
-
+## individual imports format,
 
 #CODE ASSIGNMENT
 

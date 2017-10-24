@@ -29,6 +29,7 @@ module Lineup
     CSV::Converters[:custom_date] = -> (field) {
       # ToDo: Finish defining DATE_FORMAT
       date_parts = DATE_FORMAT.match(field)
+      # Ensure the proper formatting
       date_parts.nil ? field : Date.new(date_parts[:year].to_i, date_parts[:months].to_i, date_parts[:day].to_i)
     }
   end

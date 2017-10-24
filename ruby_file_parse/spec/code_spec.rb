@@ -1,7 +1,7 @@
 require 'lineup/import'
 require 'lineup/imports/comma_import'
-require 'lineup/imports/dollar_import'
 require 'lineup/imports/pipe_import'
+require 'lineup/imports/space_import'
 require 'lineup/person'
 
 # File.dirname to return an absolute path or relative if given
